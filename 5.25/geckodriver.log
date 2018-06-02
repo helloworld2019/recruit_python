@@ -1,0 +1,13 @@
+1527205036105	geckodriver	INFO	geckodriver 0.20.1
+1527205036120	geckodriver	INFO	Listening on 127.0.0.1:60523
+1527205037110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NqFbBXY8qcfs"
+1527205040086	Marionette	INFO	Listening on port 42801
+1527205040174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://apps.bdimg.com/libs/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-462921-3, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-462921-3, line 69: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5801, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-AIw0T6/firefox-60.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
